@@ -39,19 +39,19 @@ Run the following command **4 times** to authorise sfdx to connect to all your p
 I recommend that the aliases match the names you used in the previous step, where you renamed your playgrounds. For example:
 
 ```
-sfdx auth:web:login -s --setalias cicd-dev-sandbox
+sf auth:web:login -s --alias cicd-dev-sandbox
 ```
 
 ```
-sfdx auth:web:login -s --setalias cicd-integration-sandbox
+sf auth:web:login -s --alias cicd-integration-sandbox
 ```
 
 ```
-sfdx auth:web:login -s --setalias cicd-uat-sandbox
+sf auth:web:login -s --alias cicd-uat-sandbox
 ```
 
 ```
-sfdx auth:web:login -s --setalias cicd-prod
+sf auth:web:login -s --alias cicd-prod
 ```
 
 Each time you run the command, you'll be asked to log in to Salesforce. 
